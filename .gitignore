@@ -1,0 +1,14 @@
+.env
+.env.*
+!.env.example
+
+# RabbitMQ data must remain in the Docker volume, never in Git
+data/
+rabbitmq_data/
+*.log
+
+# IDE/OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
